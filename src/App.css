@@ -54,3 +54,9 @@ body {
 .submit_btn {
   text-align: center;
 }
+
+.signout {
+  margin-right: 23%;
+  margin-top: 4%;
+  cursor: pointer;
+}
