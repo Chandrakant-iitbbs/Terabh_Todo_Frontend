@@ -24,7 +24,7 @@ const Login = () => {
             });
             const res = await response.json();
             localStorage.setItem("token", res);
-            alert("login Successfully");
+            alert("logged in Successfully");
             navigate("/");        // redirect into "/" path
         }
         catch (err) {

@@ -16,7 +16,6 @@ const Task = (props) => {
                     {isCheck ? <i className="fa-solid fa-square-check"></i> : <i className="fa-regular fa-square Cursor" onClick={async () => {
                         setIsCheck(true);
                         await doneTask(id);
-                        alert("Task checked")
                     }}></i>}
                 </div>
                 <div className='mx-2 Task_icon'>
@@ -24,7 +23,7 @@ const Task = (props) => {
                         onClick={() => {
                             deleteTask(id);
                             window.location.reload()
-                            alert("Deleted successfully")
+                            alert("Task Deleted successfully")
                         }}
                     ></i>
                 </div >
@@ -33,7 +32,7 @@ const Task = (props) => {
                         const updatedTask = prompt("Please enter updated task : ");
                         updateTask(id, updatedTask);
                         window.location.reload()
-                        alert("Task updated")
+                        alert("Task updated successfully");
                     }}></i>
                 </div>
             </div>

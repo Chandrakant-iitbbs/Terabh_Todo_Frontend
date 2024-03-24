@@ -29,7 +29,7 @@ const Signup = () => {
                     body: JSON.stringify({ email, password }), // destructuring
 
                 });
-                console.log(response)
+                // console.log(response)
                 const json = await response.json();
                 localStorage.setItem("token", json);
                 alert("Account Created Successfully");
