@@ -60,3 +60,36 @@ body {
   margin-top: 4%;
   cursor: pointer;
 }
+
+.Task_text {
+  width: 90%;
+  display: flex;
+  margin-left: 3%;
+}
+
+.task_index {
+  font-weight: 600;
+  display:flex;
+  width: 50px;
+}
+
+.txt {
+  text-align: start;
+  display: flex;
+}
+
+.Task_icon {
+  float: right;
+  margin-right: 3%;
+}
+
+.Cursor{
+  cursor: pointer;
+}
+
+.Task_icon {
+  float: right;
+  margin-right: 3%;
+}
+
+
