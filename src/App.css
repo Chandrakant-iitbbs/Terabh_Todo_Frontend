@@ -150,3 +150,119 @@ body {
 .pass_input {
   margin-left: 0;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .task_index {
+    margin-right: 8px;
+  }
+  .AllTasks_Container {
+    width: 600px;
+  }
+  .Task_headline {
+    margin-left: 40px;
+  }
+  .Task_headline_todo {
+    margin-left: 33%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .task_index {
+    margin-right: 5px;
+  }
+  .AllTasks_Container {
+    width: 600px;
+  }
+  .Task_headline {
+    margin-left: 15%;
+  }
+  .pass_input {
+    width: 70%;
+    float: right;
+  }
+  .form_input {
+    width: 70%;
+    float: right;
+  }
+  .Task_headline_todo {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .task_index {
+    margin-right: 5px;
+  }
+  .AllTasks_Container {
+    width: 700px;
+  }
+  .Task_headline {
+    margin-left: 15%;
+  }
+  .pass_input {
+    width: 70%;
+    float: right;
+  }
+  .form_input {
+    width: 70%;
+    float: right;
+  }
+  .Task_headline_todo {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .task_index {
+    margin-right: 3px;
+  }
+  .AllTasks_Container {
+    width: 750px;
+  }
+  .pass_input {
+    width: 70%;
+    float: right;
+  }
+  .form_input {
+    width: 90%;
+  }
+  .Task_headline_todo {
+    margin-left: 42%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .AllTasks_Container {
+    width: 720px;
+  }
+  .form_input {
+    width: 90%;
+    float: none;
+  }
+  .pass_input {
+    margin-left: 10px;
+    float: none;
+  }
+  .Task_headline_todo {
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .AllTasks_Container {
+    width: 65%;
+  }
+  .pass_input {
+    width: 90%;
+    float: none;
+  }
+  .form_input {
+    width: 90%;
+    float: none;
+  }
+  .Task_headline_todo {
+    margin-left: 45%;
+  }
+}
