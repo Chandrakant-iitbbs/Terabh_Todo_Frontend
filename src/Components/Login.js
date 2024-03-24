@@ -38,7 +38,7 @@ const Login = () => {
         <div className="container my-4">
             <div className='container Task_headline Task_headline_todo my-2'>TODO</div>
             <form onSubmit={handleSubmit} className="container Login_form">
-                <div className="row mb-3">
+                <div className="row mb-3 Email_input">
                     <label htmlFor="email" className="col-sm-2 col-form-label">
                         Email:
                     </label>

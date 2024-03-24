@@ -39,6 +39,10 @@ body {
   margin-top: 4px;
 }
 
+.Login_form input{
+  background-color:rgb(4, 1, 22);
+}
+
 .submit_btn1 {
   text-align: center;
   border: 2px solid black;
@@ -69,7 +73,7 @@ body {
 
 .task_index {
   font-weight: 600;
-  display:flex;
+  display: flex;
   width: 50px;
 }
 
@@ -83,13 +87,66 @@ body {
   margin-right: 3%;
 }
 
-.Cursor{
+.Cursor {
   cursor: pointer;
 }
 
-.Task_icon {
-  float: right;
-  margin-right: 3%;
+.larrow {
+  width: 10%;
 }
 
+.AllTasks_Container{
+  width: 65%;
+}
 
+.container_leftArrow_headline {
+  display: flex;
+}
+
+.leftArrow {
+  margin-top: 2%;
+  margin-left: 26%;
+  margin-bottom: 1%;
+}
+
+.Task_item_container {
+  border: 1px solid white;
+  border-style: double;
+  border-width: 5px;
+  text-align: center;
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+}
+
+.inputNewTAsk {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.form_NewTAsk {
+  width: 95%;
+  margin-left: 3%;
+}
+
+#task{
+  background-color:rgb(4, 1, 22);
+  color: whitesmoke;
+}
+
+.form_NewTAsk ::placeholder{
+  color: grey;
+}
+
+.ArrowUp {
+  display: flex;
+  align-items: center;
+}
+
+.pass_input {
+  margin-left: 0;
+}
